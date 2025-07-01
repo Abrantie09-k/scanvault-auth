@@ -1,0 +1,7 @@
+cd path/to/ScanVault_Auth_Enabled
+git init
+git add .
+git commit -m "Initial auth-enabled ScanVault"
+git branch -M main
+git remote add origin https://github.com/yourusername/scanvault-auth.git
+git push -u origin main
